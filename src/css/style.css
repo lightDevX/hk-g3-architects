@@ -149,6 +149,98 @@
     margin-bottom: 24px;
 }
 
+.features2 {
+    display: flex;
+    justify-content: center;
+    margin: 130px 240px;
+}
+
+.features2-details-main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 54px;
+}
+
+.features2-detail .features2-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    overflow: none;
+
+}
+
+.features2-title.features2-border {
+    border-left: 5px solid #FF900E;
+    height: 106px;
+    padding-left: 22px;
+    margin-bottom: 24px;
+}
+
+.features2-detail .features2-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.features-chart .features-box {
+    width: 586px;
+    height: 171px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.features-chart .features-box:hover {
+    background-color: aquamarine;
+}
+
+.features-box .features-chart-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.features-box .features-chart-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.features2-img>img {
+    width: 708px;
+    height: 982px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+
+.features2-img>button {
+    width: 342px;
+    height: 200px;
+    margin-top: -180px;
+    z-index: 2;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.features2-img>button>span {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
 
 
 
@@ -197,20 +289,25 @@
         margin: 0 auto;
     }
 
-    .features{
+    .features {
         flex-direction: column-reverse;
         width: 100%;
         margin: 0 auto;
     }
+
     .features-img {
         grid-template-columns: repeat(1, 1fr);
     }
-    .features-img>img{
+
+    .features-img>img {
         width: 100%;
-        
+
     }
-    .features-detail{
+
+    .features-detail {
         padding: 50px;
     }
+
+    
 
 }
